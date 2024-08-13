@@ -41,7 +41,7 @@
   },
   "dependencies": {
     "@jsreport/jsreport-assets": "4.0.2",
-    "@jsreport/jsreport-authentication": "4.0.1",
+    "@jsreport/jsreport-authentication": "4.2.1",
     "@jsreport/jsreport-authorization": "4.0.0",
     "@jsreport/jsreport-base": "4.0.0",
     "@jsreport/jsreport-browser-client": "4.0.0",
