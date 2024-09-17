@@ -5,7 +5,8 @@
   "scripts": {
     "test": "mocha test --timeout 7000 && standard",
     "build": "jsreport-studio-build",
-    "prepublish": "jsreport-studio-build"
+    "prepublish": "npm run snyk-protect && jsreport-studio-build",
+    "snyk-protect": "snyk-protect"
   },
   "keywords": [
     "jsreport"
@@ -31,7 +32,8 @@
   "license": "LGPL",
   "dependencies": {
     "phantom-html-to-pdf": "0.8.3",
-    "stream-to-array": "2.3.0"
+    "stream-to-array": "2.3.0",
+    "@snyk/protect": "latest"
   },
   "author": "Jan Blaha",
   "devDependencies": {
@@ -46,5 +48,6 @@
     "index.js",
     "jsreport.config.js",
     "studio"
-  ]
+  ],
+  "snyk": true
 }
