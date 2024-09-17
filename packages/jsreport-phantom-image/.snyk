@@ -1,0 +1,84 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hoek:20180212':
+    - phantom-html-to-pdf > phantomjs > request > hawk > hoek:
+        patched: '2024-09-17T09:00:25.170Z'
+        id: 'npm:hoek:20180212'
+        path: phantom-html-to-pdf > phantomjs > request > hawk > hoek
+    - phantom-html-to-pdf > phantomjs > request > hawk > boom > hoek:
+        patched: '2024-09-17T09:00:25.170Z'
+        id: 'npm:hoek:20180212'
+        path: phantom-html-to-pdf > phantomjs > request > hawk > boom > hoek
+    - phantom-html-to-pdf > phantomjs > request > hawk > sntp > hoek:
+        patched: '2024-09-17T09:00:25.170Z'
+        id: 'npm:hoek:20180212'
+        path: phantom-html-to-pdf > phantomjs > request > hawk > sntp > hoek
+    - phantom-html-to-pdf > phantom-workers > phantomjs > request > hawk > hoek:
+        patched: '2024-09-17T09:00:25.170Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          phantom-html-to-pdf > phantom-workers > phantomjs > request > hawk >
+          hoek
+    - phantom-html-to-pdf > phantomjs > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-09-17T09:00:25.170Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          phantom-html-to-pdf > phantomjs > request > hawk > cryptiles > boom >
+          hoek
+    - phantom-html-to-pdf > phantom-workers > phantomjs > request > hawk > boom > hoek:
+        patched: '2024-09-17T09:00:25.170Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          phantom-html-to-pdf > phantom-workers > phantomjs > request > hawk >
+          boom > hoek
+    - phantom-html-to-pdf > phantom-workers > phantomjs > request > hawk > sntp > hoek:
+        patched: '2024-09-17T09:00:25.170Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          phantom-html-to-pdf > phantom-workers > phantomjs > request > hawk >
+          sntp > hoek
+    - phantom-html-to-pdf > phantom-workers > phantomjs > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-09-17T09:00:25.170Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          phantom-html-to-pdf > phantom-workers > phantomjs > request > hawk >
+          cryptiles > boom > hoek
+  SNYK-JS-LODASH-567746:
+    - phantom-html-to-pdf > lodash:
+        patched: '2024-09-17T09:00:25.170Z'
+        id: SNYK-JS-LODASH-567746
+        path: phantom-html-to-pdf > lodash
+  'npm:request:20160119':
+    - phantom-html-to-pdf > phantomjs > request:
+        patched: '2024-09-17T09:00:25.170Z'
+        id: 'npm:request:20160119'
+        path: phantom-html-to-pdf > phantomjs > request
+    - phantom-html-to-pdf > phantom-workers > phantomjs > request:
+        patched: '2024-09-17T09:00:25.170Z'
+        id: 'npm:request:20160119'
+        path: phantom-html-to-pdf > phantom-workers > phantomjs > request
+  'npm:tough-cookie:20170905':
+    - phantom-html-to-pdf > phantomjs > request > tough-cookie:
+        patched: '2024-09-17T09:00:25.170Z'
+        id: 'npm:tough-cookie:20170905'
+        path: phantom-html-to-pdf > phantomjs > request > tough-cookie
+    - phantom-html-to-pdf > phantom-workers > phantomjs > request > tough-cookie:
+        patched: '2024-09-17T09:00:25.170Z'
+        id: 'npm:tough-cookie:20170905'
+        path: >-
+          phantom-html-to-pdf > phantom-workers > phantomjs > request >
+          tough-cookie
+  'npm:tunnel-agent:20170305':
+    - phantom-html-to-pdf > phantomjs > request > tunnel-agent:
+        patched: '2024-09-17T09:00:25.170Z'
+        id: 'npm:tunnel-agent:20170305'
+        path: phantom-html-to-pdf > phantomjs > request > tunnel-agent
+    - phantom-html-to-pdf > phantom-workers > phantomjs > request > tunnel-agent:
+        patched: '2024-09-17T09:00:25.170Z'
+        id: 'npm:tunnel-agent:20170305'
+        path: >-
+          phantom-html-to-pdf > phantom-workers > phantomjs > request >
+          tunnel-agent
