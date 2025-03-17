@@ -38,7 +38,7 @@
     "@babel/preset-env": "7.22.9",
     "@babel/preset-react": "7.22.5",
     "@babel/register": "7.22.5",
-    "@babel/runtime-corejs3": "7.22.6",
+    "@babel/runtime-corejs3": "7.26.10",
     "@rbarilani/remove-source-map-url-webpack-plugin": "1.1.0",
     "autoprefixer": "10.4.14",
     "babel-loader": "9.1.3",
